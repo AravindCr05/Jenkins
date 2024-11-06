@@ -26,7 +26,7 @@ public LoginPage landing;
 	public WebDriver Initializedriver() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\Finforz Tech\\eclipse-workspace\\SeleniumFramework\\src\\main\\java\\resource\\Globalproperty.properties");
+				"C:\\Users\\Finforz Tech\\JenkinsCode\\gitHubCode\\src\\main\\java\\resource\\Globalproperty.properties");
 		prop.load(fis);
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
 		WebDriver driver = new ChromeDriver();

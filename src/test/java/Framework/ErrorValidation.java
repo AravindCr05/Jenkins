@@ -1,4 +1,4 @@
-package Frameworks;
+package Framework;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -14,13 +14,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import POMclasses.AddToCart;
-import POMclasses.CartPage;
-import POMclasses.CheckOutpage;
-import POMclasses.LoginPage;
-import POMclasses.PlaceOrder;
-import Testcomponents.BaseClass;
-import Testcomponents.RetryAnalyzer;
+import POMclass.AddToCart;
+import POMclass.CartPage;
+import POMclass.CheckOutpage;
+import POMclass.LoginPage;
+import POMclass.PlaceOrder;
+import Testcomponent.BaseClass;
+import Testcomponent.RetryAnalyzer;
 
 public class ErrorValidation extends BaseClass{
 

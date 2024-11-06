@@ -1,8 +1,8 @@
 C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\cucumbertest\TestNGTestRunner.java
+C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Testcomponent\RetryAnalyzer.java
 C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\StepDefinition\Orderplacing.java
-C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Testcomponents\BaseClass.java
-C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Testcomponents\Listener.java
-C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Frameworks\EndtoEnd.java
-C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Testcomponents\RetryAnalyzer.java
-C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Frameworks\ErrorValidation.java
-C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Frameworks\POM.java
+C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Framework\ErrorValidation.java
+C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Testcomponent\Listener.java
+C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Framework\POM.java
+C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Testcomponent\BaseClass.java
+C:\Users\Finforz Tech\JenkinsCode\gitHubCode\src\test\java\Framework\EndtoEnd.java

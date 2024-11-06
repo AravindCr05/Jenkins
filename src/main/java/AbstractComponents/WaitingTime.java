@@ -11,8 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import POMclasses.OrderPage;
-import POMclasses.OrderPage1;
+import POMclass.OrderPage;
+import POMclass.OrderPage1;
 
 public class WaitingTime {
 

@@ -1,4 +1,4 @@
-package POMclasses;
+package POMclass;
 
 import java.util.List;
 

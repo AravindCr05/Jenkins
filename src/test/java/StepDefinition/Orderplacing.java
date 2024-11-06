@@ -6,12 +6,12 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import POMclasses.AddToCart;
-import POMclasses.CartPage;
-import POMclasses.CheckOutpage;
-import POMclasses.PlaceOrder;
-import POMclasses.LoginPage;
-import Testcomponents.BaseClass;
+import POMclass.AddToCart;
+import POMclass.CartPage;
+import POMclass.CheckOutpage;
+import POMclass.LoginPage;
+import POMclass.PlaceOrder;
+import Testcomponent.BaseClass;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

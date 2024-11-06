@@ -1,4 +1,4 @@
-package Frameworks;
+package Framework;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -16,13 +16,13 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import POMclasses.AddToCart;
-import POMclasses.CartPage;
-import POMclasses.CheckOutpage;
-import POMclasses.LoginPage;
-import POMclasses.OrderPage1;
-import POMclasses.PlaceOrder;
-import Testcomponents.BaseClass;
+import POMclass.AddToCart;
+import POMclass.CartPage;
+import POMclass.CheckOutpage;
+import POMclass.LoginPage;
+import POMclass.OrderPage1;
+import POMclass.PlaceOrder;
+import Testcomponent.BaseClass;
 
 public class POM extends BaseClass{
 	//String ProductName = "IPHONE 13 PRO";

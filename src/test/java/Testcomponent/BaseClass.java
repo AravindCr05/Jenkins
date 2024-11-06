@@ -1,4 +1,4 @@
-package Testcomponents;
+package Testcomponent;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeMethod;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import POMclasses.LoginPage;
+import POMclass.LoginPage;
 
 public class BaseClass {
 public WebDriver driver;
@@ -26,7 +26,7 @@ public LoginPage landing;
 	public WebDriver Initializedriver() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\Finforz Tech\\JenkinsCode\\gitHubCode\\src\\main\\java\\resource\\Globalproperty.properties");
+				"C:\\Users\\Finforz Tech\\JenkinsCode\\gitHubCode\\src\\main\\java\\resources\\Globalproperty.properties");
 		prop.load(fis);
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
 		WebDriver driver = new ChromeDriver();

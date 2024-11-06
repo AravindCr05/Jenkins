@@ -2,16 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
-		<listener class-name="Testcomponents.Listener"></listener>
+		<listener class-name="Testcomponent.Listener"></listener>
 	</listeners>
   <test thread-count="5" name="Test" parallel="tests">
     <classes>
-      <class name="Frameworks.POM"/>
+      <class name="Framework.POM"/>
     </classes>
   </test> <!-- Test -->
   <test name="ErrorMessageVerification">
 	  <classes>
-		    <class name="Frameworks.ErrorValidation"/>
+		    <class name="Framework.ErrorValidation"/>
 	  </classes>
   </test>
 </suite> <!-- Suite -->

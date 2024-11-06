@@ -1,4 +1,4 @@
-package POMclasses;
+package POMclass;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

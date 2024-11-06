@@ -1,4 +1,4 @@
-package Testcomponents;
+package Testcomponent;
 
 import java.io.IOException;
 
@@ -11,7 +11,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import resource.ExtentReporter;
+import resources.ExtentReporter;
 
 public class Listener extends BaseClass implements ITestListener{
 	ExtentReports extent = ExtentReporter.Report();
